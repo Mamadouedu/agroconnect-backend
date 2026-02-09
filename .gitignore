@@ -1,0 +1,18 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+
+# Environnement virtuel (TROP LOURD, ne pas envoyer !)
+.venv/
+venv/
+env/
+
+# Variables d'environnement (SECRETS, ne pas envoyer !)
+.env
+
+# Base de données (si tu utilises SQLite, sinon inutile pour Postgres mais ça ne mange pas de pain)
+*.db
+*.sqlite3
+
+# Logs
+*.log
